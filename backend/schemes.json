@@ -1,0 +1,34 @@
+{
+  "schemes": [
+    {
+      "id": "pm-usp-csss",
+      "name": "Pradhan Mantri Uchchatar Shiksha Protsahan (PM-USP) — Central Sector Scheme of Scholarship for College and University Students (CSSS)",
+      "short_name": "PM-USP CSSS",
+      "category": "Higher Education Scholarship",
+      "government": "Government of India — Ministry of Education, Department of Higher Education",
+      "objective": "Financial assistance for meritorious students from low-income families pursuing higher studies.",
+      "benefit": "Financial assistance to eligible students pursuing higher studies.",
+      "application": "The scheme is implemented through the National Scholarship Portal.",
+      "states": [
+        "all"
+      ],
+      "eligibility": {
+        "education": [
+          "college",
+          "university",
+          "undergraduate",
+          "ug",
+          "higher education"
+        ],
+        "max_income": 450000,
+        "occupations": [
+          "student"
+        ]
+      },
+      "source": {
+        "title": "Government of India, Ministry of Education — PM-USP CSSS 2025-26 FAQ",
+        "url": "https://www.education.gov.in/sites/upload_files/mhrd/files/upload_document/FAQs_PM_USP2526.pdf"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CivicAI — Government Services, Simplified</title>
+
+    <meta
+        name="description"
+        content="CivicAI helps citizens understand Indian government schemes and services using AI and verified government information."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================================================
+     BACKGROUND
+========================================================= -->
+
+<div class="background-glow glow-one"></div>
+<div class="background-glow glow-two"></div>
+
+
+<!-- =========================================================
+     NAVBAR
+========================================================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <button class="brand" id="brandButton">
+            <div class="brand-icon">
+                <span>✦</span>
+            </div>
+
+            <div>
+                <div class="brand-name">Civic<span>AI</span></div>
+                <div class="brand-subtitle">Government Services, Simplified</div>
+            </div>
+        </button>
+
+
+        <nav class="nav-links">
+
+            <button
+                class="nav-link active"
+                data-section="home"
+            >
+                Home
+            </button>
+
+            <button
+                class="nav-link"
+                data-section="assistant"
+            >
+                AI Assistant
+            </button>
+
+            <button
+                class="nav-link"
+                data-section="finder"
+            >
+                Find Schemes
+            </button>
+
+        </nav>
+
+
+        <div class="nav-status">
+            <span class="status-dot"></span>
+            <span>Local AI</span>
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     MAIN
+========================================================= -->
+
+<main>
+
+
+<!-- =========================================================
+     HOME
+========================================================= -->
+
+<section
+    id="home-section"
+    class="page-section active-section"
+>
+
+    <div class="hero-container">
+
+        <div class="hero-badge">
+            <span>✦</span>
+            AI-powered civic assistance
+        </div>
+
+
+        <h1>
+            Government help,
+            <span>without the confusion.</span>
+        </h1>
+
+
+        <p class="hero-description">
+            CivicAI helps you discover and understand government
+            schemes using verified information and a local AI
+            assistant.
+        </p>
+
+
+        <div class="hero-actions">
+
+            <button
+                class="primary-button"
+                id="heroChatButton"
+            >
+                <span>Ask CivicAI</span>
+                <span>→</span>
+            </button>
+
+            <button
+                class="secondary-button"
+                id="heroFinderButton"
+            >
+                <span>Find schemes for me</span>
+                <span>⌁</span>
+            </button>
+
+        </div>
+
+
+        <div class="trust-row">
+
+            <div class="trust-item">
+                <span>✓</span>
+                Government-sourced knowledge
+            </div>
+
+            <div class="trust-item">
+                <span>✓</span>
+                Local AI processing
+            </div>
+
+            <div class="trust-item">
+                <span>✓</span>
+                No paid API required
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- FEATURES -->
+
+    <div class="feature-container">
+
+        <div class="section-heading">
+
+            <div>
+                <span class="eyebrow">WHAT CIVICAI DOES</span>
+
+                <h2>
+                    One place to navigate
+                    public services.
+                </h2>
+            </div>
+
+            <p>
+                Instead of searching through complicated government
+                websites, start with what you actually need.
+            </p>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+            <button
+                class="feature-card"
+                data-section="assistant"
+            >
+
+                <div class="feature-icon blue">
+                    💬
+                </div>
+
+                <h3>Ask the AI</h3>
+
+                <p>
+                    Ask questions in normal language and get
+                    straightforward explanations grounded in the
+                    CivicAI knowledge base.
+                </p>
+
+                <span class="feature-link">
+                    Start asking →
+                </span>
+
+            </button>
+
+
+            <button
+                class="feature-card"
+                data-section="finder"
+            >
+
+                <div class="feature-icon purple">
+                    🧭
+                </div>
+
+                <h3>Find Schemes</h3>
+
+                <p>
+                    Tell CivicAI about yourself and discover
+                    schemes that may match your profile.
+                </p>
+
+                <span class="feature-link">
+                    Find schemes →
+                </span>
+
+            </button>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon green">
+                    🏛
+                </div>
+
+                <h3>Verified Sources</h3>
+
+                <p>
+                    CivicAI connects its answers to the government
+                    documentation available in its knowledge base.
+                </p>
+
+                <span class="feature-link">
+                    Built for trust
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- HOW IT WORKS -->
+
+    <div class="how-container">
+
+        <div class="section-heading centered">
+
+            <span class="eyebrow">HOW IT WORKS</span>
+
+            <h2>
+                From question to answer
+                in seconds.
+            </h2>
+
+        </div>
+
+
+        <div class="steps-grid">
+
+            <div class="step">
+
+                <div class="step-number">01</div>
+
+                <h3>Ask</h3>
+
+                <p>
+                    Tell CivicAI what you want to know.
+                </p>
+
+            </div>
+
+
+            <div class="step-line"></div>
+
+
+            <div class="step">
+
+                <div class="step-number">02</div>
+
+                <h3>Retrieve</h3>
+
+                <p>
+                    Relevant information is retrieved from
+                    the CivicAI knowledge base.
+                </p>
+
+            </div>
+
+
+            <div class="step-line"></div>
+
+
+            <div class="step">
+
+                <div class="step-number">03</div>
+
+                <h3>Understand</h3>
+
+                <p>
+                    Local AI explains the information in
+                    simple language.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- DISCLAIMER -->
+
+    <div class="disclaimer-container">
+
+        <div class="disclaimer-icon">!</div>
+
+        <div>
+            <strong>Important</strong>
+
+            <p>
+                CivicAI provides informational assistance.
+                It does not determine official eligibility,
+                approval, or selection. Always verify important
+                details with the relevant government authority.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     ASSISTANT
+========================================================= -->
+
+<section
+    id="assistant-section"
+    class="page-section"
+>
+
+    <div class="assistant-layout">
+
+        <!-- SIDEBAR -->
+
+        <aside class="assistant-sidebar">
+
+            <div class="sidebar-heading">
+
+                <span class="eyebrow">
+                    CIVICAI ASSISTANT
+                </span>
+
+                <h2>
+                    What can I help
+                    you find?
+                </h2>
+
+            </div>
+
+
+            <div class="suggestion-list">
+
+                <button
+                    class="suggestion-card"
+                    data-question="What are the eligibility requirements for the scholarship?"
+                >
+                    <span>🎓</span>
+                    <div>
+                        <strong>Scholarship eligibility</strong>
+                        <small>Who can apply?</small>
+                    </div>
+                </button>
+
+
+                <button
+                    class="suggestion-card"
+                    data-question="How can I apply for the scholarship?"
+                >
+                    <span>📝</span>
+                    <div>
+                        <strong>How do I apply?</strong>
+                        <small>Application information</small>
+                    </div>
+                </button>
+
+
+                <button
+                    class="suggestion-card"
+                    data-question="What are the important exclusions for this scholarship?"
+                >
+                    <span>⚠</span>
+                    <div>
+                        <strong>Important exclusions</strong>
+                        <small>Who may not qualify?</small>
+                    </div>
+                </button>
+
+            </div>
+
+
+            <button
+                class="sidebar-finder-button"
+                id="sidebarFinderButton"
+            >
+                🧭 Find schemes for me
+            </button>
+
+        </aside>
+
+
+        <!-- CHAT -->
+
+        <div class="chat-panel">
+
+            <div class="chat-header">
+
+                <div class="chat-agent">
+
+                    <div class="agent-avatar">
+                        ✦
+                    </div>
+
+                    <div>
+                        <strong>CivicAI</strong>
+
+                        <span>
+                            <i></i>
+                            Local AI assistant
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <button
+                    class="clear-chat"
+                    id="clearChatButton"
+                >
+                    Clear
+                </button>
+
+            </div>
+
+
+            <div
+                class="chat-messages"
+                id="chatMessages"
+            >
+
+                <div class="welcome-message">
+
+                    <div class="welcome-icon">
+                        ✦
+                    </div>
+
+                    <h2>
+                        How can I help?
+                    </h2>
+
+                    <p>
+                        Ask me about the government information
+                        available in the CivicAI knowledge base.
+                    </p>
+
+                    <div class="welcome-examples">
+
+                        <button
+                            data-question="What are the eligibility requirements for the scholarship?"
+                        >
+                            What are the scholarship requirements?
+                        </button>
+
+                        <button
+                            data-question="What is the scholarship about?"
+                        >
+                            What is this scholarship?
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="chat-input-area">
+
+                <form id="chatForm">
+
+                    <div class="chat-input-wrapper">
+
+                        <textarea
+                            id="chatInput"
+                            placeholder="Ask CivicAI anything..."
+                            rows="1"
+                            maxlength="2000"
+                        ></textarea>
+
+                        <button
+                            type="submit"
+                            class="send-button"
+                            id="sendButton"
+                        >
+                            ↑
+                        </button>
+
+                    </div>
+
+                    <div class="input-footer">
+
+                        <span>
+                            Powered by local Ollama AI
+                        </span>
+
+                        <span>
+                            Enter to send
+                        </span>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     SCHEME FINDER
+========================================================= -->
+
+<section
+    id="finder-section"
+    class="page-section"
+>
+
+    <div class="finder-container">
+
+        <div class="finder-header">
+
+            <span class="eyebrow">
+                SCHEME DISCOVERY
+            </span>
+
+            <h1>
+                Find schemes that
+                <span>may fit you.</span>
+            </h1>
+
+            <p>
+                Tell CivicAI a little about yourself.
+                We'll compare your profile with the government
+                scheme information available in our knowledge base.
+            </p>
+
+        </div>
+
+
+        <div class="finder-card">
+
+            <form id="finderForm">
+
+
+                <!-- BASIC INFO -->
+
+                <div class="form-section">
+
+                    <div class="form-section-title">
+
+                        <span>01</span>
+
+                        <div>
+                            <h3>About you</h3>
+                            <p>
+                                Basic information helps us
+                                understand your profile.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-grid">
+
+                        <div class="form-field">
+
+                            <label for="age">
+                                Age
+                            </label>
+
+                            <input
+                                type="number"
+                                id="age"
+                                min="1"
+                                max="120"
+                                placeholder="e.g. 20"
+                            >
+
+                        </div>
+
+
+                        <div class="form-field">
+
+                            <label for="education">
+                                Education level
+                            </label>
+
+                            <select id="education">
+
+                                <option value="">
+                                    Select education
+                                </option>
+
+                                <option value="school">
+                                    School
+                                </option>
+
+                                <option value="college">
+                                    College
+                                </option>
+
+                                <option value="university">
+                                    University
+                                </option>
+
+                                <option value="undergraduate">
+                                    Undergraduate
+                                </option>
+
+                                <option value="higher education">
+                                    Higher education
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-field">
+
+                            <label for="occupation">
+                                Occupation
+                            </label>
+
+                            <select id="occupation">
+
+                                <option value="">
+                                    Select occupation
+                                </option>
+
+                                <option value="student">
+                                    Student
+                                </option>
+
+                                <option value="worker">
+                                    Working professional
+                                </option>
+
+                                <option value="farmer">
+                                    Farmer
+                                </option>
+
+                                <option value="self employed">
+                                    Self-employed
+                                </option>
+
+                                <option value="unemployed">
+                                    Currently unemployed
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-field">
+
+                            <label for="state">
+                                State / UT
+                            </label>
+
+                            <select id="state">
+
+                                <option value="">
+                                    Select state
+                                </option>
+
+                                <option value="andhra pradesh">
+                                    Andhra Pradesh
+                                </option>
+
+                                <option value="assam">
+                                    Assam
+                                </option>
+
+                                <option value="bihar">
+                                    Bihar
+                                </option>
+
+                                <option value="delhi">
+                                    Delhi
+                                </option>
+
+                                <option value="goa">
+                                    Goa
+                                </option>
+
+                                <option value="gujarat">
+                                    Gujarat
+                                </option>
+
+                                <option value="haryana">
+                                    Haryana
+                                </option>
+
+                                <option value="himachal pradesh">
+                                    Himachal Pradesh
+                                </option>
+
+                                <option value="jharkhand">
+                                    Jharkhand
+                                </option>
+
+                                <option value="karnataka">
+                                    Karnataka
+                                </option>
+
+                                <option value="kerala">
+                                    Kerala
+                                </option>
+
+                                <option value="madhya pradesh">
+                                    Madhya Pradesh
+                                </option>
+
+                                <option value="maharashtra">
+                                    Maharashtra
+                                </option>
+
+                                <option value="odisha">
+                                    Odisha
+                                </option>
+
+                                <option value="punjab">
+                                    Punjab
+                                </option>
+
+                                <option value="rajasthan">
+                                    Rajasthan
+                                </option>
+
+                                <option value="tamil nadu">
+                                    Tamil Nadu
+                                </option>
+
+                                <option value="telangana">
+                                    Telangana
+                                </option>
+
+                                <option value="uttar pradesh">
+                                    Uttar Pradesh
+                                </option>
+
+                                <option value="uttarakhand">
+                                    Uttarakhand
+                                </option>
+
+                                <option value="west bengal">
+                                    West Bengal
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-field full-width">
+
+                            <label for="income">
+                                Annual family income
+                            </label>
+
+                            <div class="input-with-prefix">
+
+                                <span>₹</span>
+
+                                <input
+                                    type="number"
+                                    id="income"
+                                    min="0"
+                                    placeholder="e.g. 300000"
+                                >
+
+                            </div>
+
+                            <small>
+                                Enter your approximate annual family income.
+                            </small>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CATEGORY -->
+
+                <div class="form-section">
+
+                    <div class="form-section-title">
+
+                        <span>02</span>
+
+                        <div>
+                            <h3>What are you looking for?</h3>
+                            <p>
+                                Choose an area you'd like to explore.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="category-options">
+
+                        <label class="category-option">
+
+                            <input
+                                type="radio"
+                                name="category"
+                                value="Higher Education Scholarship"
+                            >
+
+                            <span>
+                                🎓
+                                <strong>Education</strong>
+                            </span>
+
+                        </label>
+
+
+                        <label class="category-option">
+
+                            <input
+                                type="radio"
+                                name="category"
+                                value="Employment"
+                            >
+
+                            <span>
+                                💼
+                                <strong>Employment</strong>
+                            </span>
+
+                        </label>
+
+
+                        <label class="category-option">
+
+                            <input
+                                type="radio"
+                                name="category"
+                                value="Healthcare"
+                            >
+
+                            <span>
+                                🏥
+                                <strong>Healthcare</strong>
+                            </span>
+
+                        </label>
+
+
+                        <label class="category-option">
+
+                            <input
+                                type="radio"
+                                name="category"
+                                value="Housing"
+                            >
+
+                            <span>
+                                🏠
+                                <strong>Housing</strong>
+                            </span>
+
+                        </label>
+
+
+                        <label class="category-option">
+
+                            <input
+                                type="radio"
+                                name="category"
+                                value="Financial Assistance"
+                            >
+
+                            <span>
+                                💰
+                                <strong>Financial help</strong>
+                            </span>
+
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <div class="finder-submit-area">
+
+                    <div class="finder-note">
+                        <span>🔒</span>
+                        Your information stays in this session.
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="primary-button finder-submit"
+                        id="finderSubmit"
+                    >
+                        <span>Find matching schemes</span>
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+
+        <!-- RESULTS -->
+
+        <div
+            id="finderResults"
+            class="finder-results hidden"
+        >
+
+            <div class="results-header">
+
+                <div>
+
+                    <span class="eyebrow">
+                        YOUR RESULTS
+                    </span>
+
+                    <h2>
+                        Schemes you may want to explore
+                    </h2>
+
+                </div>
+
+                <button
+                    id="resetFinder"
+                    class="secondary-button"
+                >
+                    Start over
+                </button>
+
+            </div>
+
+
+            <div
+                id="schemeResultsGrid"
+                class="scheme-results-grid"
+            ></div>
+
+
+            <div class="results-disclaimer">
+
+                <strong>Important:</strong>
+
+                These matches are informational and are based
+                only on the information currently available in
+                CivicAI's knowledge base. A match does not mean
+                official eligibility, approval, or selection.
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- =========================================================
+     TOAST
+========================================================= -->
+
+<div
+    id="toast"
+    class="toast"
+>
+    <span id="toastIcon">✓</span>
+    <span id="toastMessage">Done</span>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
