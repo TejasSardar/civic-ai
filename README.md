@@ -1,4 +1,4 @@
-# 🇮🇳 CivicAI
+# CivicAI
 
 ### AI-Powered Government Services Assistant
 
